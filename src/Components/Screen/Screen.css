@@ -1,0 +1,29 @@
+.containerScreen {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #262D31;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    color: #D9D9DB;
+}
+
+.ImageScreen {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.containerDataScreen {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.textGreenScreen {
+    color: #0CAF9C;
+}

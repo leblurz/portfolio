@@ -1,0 +1,175 @@
+.perfilImage {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.containerIcons {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    font-size: 25px;
+}
+
+.iconNav {
+    margin-left: 19px;
+    color: #B1B3B5;
+}
+
+
+.imagenHeaderNav {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.containerHeaderNav {
+    background-color: #2A2F32;
+    position: relative;
+}
+
+.containTextNav {
+    background-color: #323739;
+    border-radius: 30px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.titleNav {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.descpNav {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.textNav {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.containerNavOption {
+    width: 100%;
+    height: 18vh;
+    text-align: start;
+    position: relative;
+}
+
+.containerNavOption:hover {
+    background-color: #2D3134;
+}
+
+.hrNav {
+    margin: 0;
+    margin-left: 20%;
+    padding: 0;
+    width: 100%;
+    border-color: #ffffff3f;
+}
+
+nav {
+    width: 30%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color:#131C21;
+    color: white;
+}
+
+nav::-webkit-scrollbar {
+    background-color: #131C21;
+    width: 9px;
+}
+
+nav::-webkit-scrollbar-thumb{
+    background-color: #394045;
+    border-radius: 2px;
+}
+
+.containerPerfilImage {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.granContainerTextNav {
+    display: inline-block;
+    text-align: center;
+}
+
+.containerTextNav {
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    margin-left: 20px;
+}
+
+.containerMessage {
+    font-size: 15px;
+    position: absolute;
+    top: 60%;
+    margin-left: 20px;
+}
+
+.iconMessage {
+    margin-right: 5px;
+}
+
+.numberNav {
+    position: absolute;
+    right: 5%;
+    top: 60%;
+    background-color: #00AF9C;
+    color: black;
+    border-bottom-left-radius: 1.1em;
+    border-bottom-right-radius: 1.1em;
+    border-top-right-radius: 1.1em;
+    border-top-left-radius: 1.1em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: all .2s;
+}
+
+.hourNav {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    font-size: 10px;
+    color: #00AF9C;
+    font-weight: bolder;
+}
+
+.arrowNav {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 61%;
+    font-size: 20px;
+    transition: all .3s;
+}
+
+.containerNavOption:hover .arrowNav {
+    display: inline-block;
+}
+
+.containerNavOption:hover .numberNav {
+    right: 12%;
+}
