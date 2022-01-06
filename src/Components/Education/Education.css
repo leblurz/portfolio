@@ -40,3 +40,98 @@
     top: 40%;
     font-size: 20px;
 }
+
+.containerIconsBottEducation {
+    display: flex;
+    margin-left: 30px;
+}
+
+.containerBottEducation {
+    background-color: #2A2F32;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.iconBottEducation {
+    color: #828689;
+    font-size: 30px;
+}
+
+.containerSearchBottEducation {
+    display: flex;
+    width: 70%;
+}
+
+.containerMicBottEducation {
+    display: flex;
+    width: 10%;
+}
+
+.inputBottEducation {
+    width: 100%;
+    border-radius: 4em;
+    border: none;
+    padding: 10px;
+    background-color: #33383B;
+    color: #828487;
+}
+
+.containerDataBottEducation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+#clipEd {
+    margin-left: 18px;
+    margin-right: 0;
+}
+
+#micEd {
+    margin-left: 25px;
+}
+
+
+.containerChatLeft {
+    height: 80%;
+    width: 70%;
+    position: absolute;
+    left: 0;
+}
+
+
+.textChat {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 20px 10px 10px;
+}
+
+.relativeLeft {
+    position: relative;
+}
+
+.containerSpanChat {
+    justify-content: start;
+    text-align: start;
+    width: 90%;
+    margin-left: 40px;
+    background-color: #262D31;
+    border-radius: 7px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.flecha-left{
+    border-bottom:15px solid transparent;  /* izquierda flecha */
+    border-top:1px solid transparent; /* derecha flecha */
+    border-right:55px solid #262D31; /* base flecha y color*/
+    position: absolute;
+    top: 0;
+    margin-left: 15px;
+    border-radius: 1px;
+} 

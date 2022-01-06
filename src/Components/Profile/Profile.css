@@ -7,8 +7,8 @@
     background-image: url('../../Images/fondo.jpg');
     background-position:center;
     background-size: contain;
+    overflow-y: hidden;
 }
-
 
 .topProfile {
     background-color: #2A2F32;
@@ -40,4 +40,158 @@
     right: 1%;
     top: 40%;
     font-size: 20px;
+}
+
+.containerIconsBottProfile {
+    display: flex;
+    margin-left: 30px;
+}
+
+.containerBottProfile {
+    background-color: #2A2F32;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.iconBottProfile {
+    color: #828689;
+    font-size: 30px;
+}
+
+.containerSearchBottProfile {
+    display: flex;
+    width: 70%;
+}
+
+.containerMicBottProfile {
+    display: flex;
+    width: 10%;
+}
+
+.inputBottProfile {
+    width: 100%;
+    border-radius: 4em;
+    border: none;
+    padding: 10px;
+    background-color: #33383B;
+    color: #828487;
+}
+
+.containerDataBottProfile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+#clipEd {
+    margin-left: 18px;
+    margin-right: 0;
+}
+
+#micEd {
+    margin-left: 25px;
+}
+
+
+.containerChatLeftTecs {
+    height: 80%;
+    width: 70%;
+    position: absolute;
+    left: 0;
+    top: 24%;
+}
+
+
+
+.textChat {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 20px 10px 10px;
+}
+
+.relativeLeft {
+    position: relative;
+}
+
+.containerSpanChat {
+    justify-content: start;
+    text-align: start;
+    width: 50%;
+    margin-left: 40px;
+    background-color: #262D31;
+    border-radius: 7px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.absolute1Left {
+    position: absolute;
+    top: 20%;
+}
+
+.flecha-left{
+    border-bottom:15px solid transparent;  /* izquierda flecha */
+    border-top:1px solid transparent; /* derecha flecha */
+    border-right:55px solid #262D31; /* base flecha y color*/
+    position: absolute;
+    top: 0;
+    margin-left: 15px;
+    border-radius: 1px;
+} 
+
+.relativeRight {
+    position: relative;
+}
+
+.containerChatRight {
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    right: 0;
+}
+
+.textChatRight {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    text-align: start;
+    width: 100%;
+}
+
+.absoluteRight {
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.containerSpanChatRight {
+    width: 80%;
+    background-color: #262D31;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.flecha-right{
+    border-bottom:15px solid transparent;  /* izquierda flecha */
+    border-top:1px solid transparent; /* derecha flecha */
+    border-right:55px solid #262D31; /* base flecha y color*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 15px;
+    transform: rotate(180deg);
+    transform: rotateY(180deg);
+} 
+
+.tecsIcon {
+    margin-left: 10px;
+    margin-right: 10px;
 }

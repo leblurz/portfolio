@@ -87,6 +87,7 @@ nav {
     overflow-x: hidden;
     background-color:#131C21;
     color: white;
+    min-width: 310.19px;
 }
 
 nav::-webkit-scrollbar {
