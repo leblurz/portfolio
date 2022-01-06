@@ -1,0 +1,42 @@
+.containerTecnologies {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-image: url('../../Images/fondo.jpg');
+    background-position:center;
+    background-size: contain;
+}
+
+.topTecnologies {
+    background-color: #2A2F32;
+    height: 75px;
+    position: relative;
+}
+
+.imageTecnologies {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.textTopTecnologies {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-weight: bolder;
+}
+
+.iconTecnologies {
+    color: #B1B3B5;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    top: 40%;
+    font-size: 20px;
+}

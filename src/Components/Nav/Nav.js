@@ -13,6 +13,7 @@ import profile from '../../Images/profile.png';
 import home from '../../Images/home.png';
 import educ from '../../Images/educ.png';
 import contact from '../../Images/contact.png';
+import { Link } from 'react-router-dom';
 
 export default function NavMenu() {
     return (
@@ -39,119 +40,131 @@ export default function NavMenu() {
                 </div>
             </div>
             <hr className='hrNav'/>
-            <div className='containerNavOption'>
-                <div className='containerPerfilImage'>
-                    <img className='perfilImage' src={home} alt='Imagen de Perfil' />
-                </div>
-                <div className='granContainerTextNav'>
-                    <div className='containerTextNav'>
-                        <li className='textNav'>Home</li>
+            <Link to='/' className='linkNav'>
+                <div className='containerNavOption'>
+                    <div className='containerPerfilImage'>
+                        <img className='perfilImage' src={home} alt='Imagen de Perfil' />
                     </div>
-                    <div className='containerMessage'>
-                        <AiOutlineCheck className='iconMessage'/>
-                        <span className='message'>
-                            Back home!
-                        </span>
+                    <div className='granContainerTextNav'>
+                        <div className='containerTextNav'>
+                            <li className='textNav'>Home</li>
+                        </div>
+                        <div className='containerMessage'>
+                            <AiOutlineCheck className='iconMessage'/>
+                            <span className='message'>
+                                Back home!
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>            
+            </Link>            
             <hr className='hrNav'/>
-            <div className='containerNavOption'>
-                <div className='containerPerfilImage'>
-                    <img className='perfilImage' src={educ} alt='Imagen de Perfil' />
-                </div>
-                <div className='granContainerTextNav'>
-                    <div className='containerTextNav'>
-                        <li className='textNav'>Education</li>
+            <Link to='/education' className='linkNav'>
+                <div className='containerNavOption'>
+                    <div className='containerPerfilImage'>
+                        <img className='perfilImage' src={educ} alt='Imagen de Perfil' />
                     </div>
-                    <div className='containerMessage'>
-                        <AiOutlineCheck className='iconMessage'/>
-                        <span className='message'>
-                            Open to learn
-                        </span>
+                    <div className='granContainerTextNav'>
+                        <div className='containerTextNav'>
+                            <li className='textNav'>Education</li>
+                        </div>
+                        <div className='containerMessage'>
+                            <AiOutlineCheck className='iconMessage'/>
+                            <span className='message'>
+                                Open to learn
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </Link>
             <hr className='hrNav'/>
-            <div className='containerNavOption'>
-                <div className='containerPerfilImage'>
-                    <img className='perfilImage' src={tec} alt='Imagen de Perfil' />
-                </div>
-                <div className='granContainerTextNav'>
-                    <div className='containerTextNav'>
-                        <li className='textNav'>Tecnologies</li>
+            <Link to='/tecs' className='linkNav'>
+                <div className='containerNavOption'>
+                    <div className='containerPerfilImage'>
+                        <img className='perfilImage' src={tec} alt='Imagen de Perfil' />
                     </div>
-                    <div className='containerMessage'>
-                        <AiOutlineCheck className='iconMessage'/>
-                        <span className='message'>
-                            If u need others, I can learn
+                    <div className='granContainerTextNav'>
+                        <div className='containerTextNav'>
+                            <li className='textNav'>Tecnologies</li>
+                        </div>
+                        <div className='containerMessage'>
+                            <AiOutlineCheck className='iconMessage'/>
+                            <span className='message'>
+                                If u need others, I can learn
+                            </span>
+                        </div>
+                        <span className='hourNav'>
+                            A second ago!
                         </span>
-                    </div>
-                    <span className='hourNav'>
-                        A second ago!
-                    </span>
-                    <div className='numberNav'>
-                        3
-                    </div>
-                    <div className='arrowNav'>
-                        <IoIosArrowDown />
+                        <div className='numberNav'>
+                            3
+                        </div>
+                        <div className='arrowNav'>
+                            <IoIosArrowDown />
+                        </div>
                     </div>
                 </div>
-            </div>
+            </Link>
             <hr className='hrNav'/>
-            <div className='containerNavOption'>
-                <div className='containerPerfilImage'>
-                    <img className='perfilImage' src={cod} alt='Imagen de Perfil' />
-                </div>
-                <div className='granContainerTextNav'>
-                    <div className='containerTextNav'>
-                        <li className='textNav'>Projects</li>
+            <Link to='/projects' className='linkNav'>
+                <div className='containerNavOption'>
+                    <div className='containerPerfilImage'>
+                        <img className='perfilImage' src={cod} alt='Imagen de Perfil' />
+                    </div>
+                    <div className='granContainerTextNav'>
+                        <div className='containerTextNav'>
+                            <li className='textNav'>Projects</li>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </Link>
             <hr className='hrNav'/>
-            <div className='containerNavOption'>
-                <div className='containerPerfilImage'>
-                    <img className='perfilImage' src={profile} alt='Imagen de Perfil' />
-                </div>
-                <div className='granContainerTextNav'>
-                    <div className='containerTextNav'>
-                        <li className='textNav'>Personal Profile</li>
+            <Link to='/profile' className='linkNav'>
+                <div className='containerNavOption'>
+                    <div className='containerPerfilImage'>
+                        <img className='perfilImage' src={profile} alt='Imagen de Perfil' />
                     </div>
-                    <div className='containerMessage'>
-                        <AiOutlineCheck className='iconMessage'/>
-                        <span className='message'>
-                            Check my profile!
+                    <div className='granContainerTextNav'>
+                        <div className='containerTextNav'>
+                            <li className='textNav'>Personal Profile</li>
+                        </div>
+                        <div className='containerMessage'>
+                            <AiOutlineCheck className='iconMessage'/>
+                            <span className='message'>
+                                Check my profile!
+                            </span>
+                        </div>
+                        <span className='hourNav'>
+                            Right now!
                         </span>
-                    </div>
-                    <span className='hourNav'>
-                        Right now!
-                    </span>
-                    <div className='numberNav'>
-                        2
-                    </div>
-                    <div className='arrowNav'>
-                        <IoIosArrowDown />
+                        <div className='numberNav'>
+                            2
+                        </div>
+                        <div className='arrowNav'>
+                            <IoIosArrowDown />
+                        </div>
                     </div>
                 </div>
-            </div>
+            </Link>
             <hr className='hrNav'/>
-            <div className='containerNavOption'>
-                <div className='containerPerfilImage'>
-                    <img className='perfilImage' src={contact} alt='Imagen de Perfil' />
-                </div>
-                <div className='granContainerTextNav'>
-                    <div className='containerTextNav'>
-                        <li className='textNav'>Contact</li>
+            <Link to='/contact' className='linkNav'>
+                <div className='containerNavOption'>
+                    <div className='containerPerfilImage'>
+                        <img className='perfilImage' src={contact} alt='Imagen de Perfil' />
                     </div>
-                    <div className='containerMessage'>
-                        <AiOutlineCheck className='iconMessage'/>
-                        <span className='message'>
-                            Im awating ur message!!
-                        </span>
+                    <div className='granContainerTextNav'>
+                        <div className='containerTextNav'>
+                            <li className='textNav'>Contact</li>
+                        </div>
+                        <div className='containerMessage'>
+                            <AiOutlineCheck className='iconMessage'/>
+                            <span className='message'>
+                                Im awating ur message!!
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </Link>
         </nav>
     )
 };
