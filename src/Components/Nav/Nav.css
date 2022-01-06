@@ -148,6 +148,11 @@ nav::-webkit-scrollbar-thumb{
     transition: all .2s;
 }
 
+.linkNav {
+    text-decoration: none;
+    color: white;
+}
+
 .hourNav {
     position: absolute;
     right: 5%;
