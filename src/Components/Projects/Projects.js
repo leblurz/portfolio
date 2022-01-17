@@ -23,7 +23,7 @@ export default function Projects () {
                 </div>
             </div>
 
-            <div className='containerChatLeft'>
+            <div className='containerChatLeftProjects'>
                 <div className='relativeLeft'>
                     <div class="flecha-left" />
                     <div className='containerSpanChat'>
@@ -68,8 +68,6 @@ export default function Projects () {
                         </a>
                     </div>
                 </div>
-            </div>
-            <div className='containerChatRight'>
             </div>
             <div className='containerBottProjects'>
                 <div className='containerDataBottProjects'>

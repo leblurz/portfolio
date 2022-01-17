@@ -96,18 +96,11 @@
 }
 
 
-.containerChatLeft {
+.containerChatLeftProjects {
     height: 80%;
     width: 70%;
     position: absolute;
     left: 0;
-}
-
-.containerChatRight {
-    height: 80%;
-    width: 50%;
-    position: absolute;
-    right: 0;
 }
 
 .textChat {
@@ -119,12 +112,13 @@
 
 .relativeLeft {
     position: relative;
+    width: 100%;
 }
 
 .containerSpanChat {
     justify-content: start;
     text-align: start;
-    width: 70%;
+    width: 100%;
     margin-left: 40px;
     background-color: #262D31;
     border-radius: 7px;

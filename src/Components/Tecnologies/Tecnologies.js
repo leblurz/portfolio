@@ -14,6 +14,7 @@ import { GrNode } from "react-icons/gr";
 import { SiExpress } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
 
 export default function Tecnologies () {
     return (
@@ -46,7 +47,7 @@ export default function Tecnologies () {
                     <div class="flecha-left" />
                     <div className='containerSpanChat'>
                         <span className='textChat'>
-                        ReactJS {<FaReact className='tecsIcon'/>} Redux {<SiRedux className='tecsIcon'/>}
+                        ReactJS {<FaReact className='tecsIcon'/>} Redux {<SiRedux className='tecsIcon'/>} JavaScript{<SiJavascript className='tecsIcon'/>}
                         </span>
                     </div>
                 </div>
